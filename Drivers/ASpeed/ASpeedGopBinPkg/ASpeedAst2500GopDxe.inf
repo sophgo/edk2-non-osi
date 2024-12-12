@@ -21,3 +21,6 @@
 
 [Binaries.X64]
   PE32|X64/ASpeedAst2500Gop.efi|*
+
+[Binaries.RISCV64]
+  PE32|RISCV64/ASpeedAst2500Gop.efi|*

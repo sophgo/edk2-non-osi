@@ -1,0 +1,18 @@
+## @file
+#  Component description file for iPXE UEFI application.
+#
+#  Copyright (c) 2025, SOPHGO Technology Inc. All rights reserved.<BR>
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 1.29
+  BASE_NAME                      = iPXE
+  FILE_GUID                      = 39492805-4E6C-4015-9197-6905FBAAF2B8
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.21.1
+
+[Binaries.RISCV64]
+  PE32|ipxe.efi|*

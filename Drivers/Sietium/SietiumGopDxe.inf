@@ -1,0 +1,18 @@
+## @file
+#  Component description file for Sietium Graphics Controller Driver.
+#
+#  Copyright (c) 2026, Sietium Technology Inc. All rights reserved.<BR>
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 1.29
+  BASE_NAME                      = SietiumGopDxe
+  FILE_GUID                      = ebfc96f9-305f-4f88-8d75-e1b98e9031ab
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0.0
+
+[Binaries.RISCV64]
+  PE32|RISCV64/GenBu02Dxe.efi|*

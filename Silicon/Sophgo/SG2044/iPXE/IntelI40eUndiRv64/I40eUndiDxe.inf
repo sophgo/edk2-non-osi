@@ -1,0 +1,16 @@
+## @file
+#  Binary packaging: IntelUndiPkg I40eUndiDxe (XL710 / X722 family) built for RISCV64.
+#
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010019
+  BASE_NAME                      = I40eUndiDxe
+  FILE_GUID                      = 6B9C93FA-0494-4620-BEBD-B40CF99160C1
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+
+[Binaries.RISCV64]
+  PE32|I40eUndiDxe.efi|*

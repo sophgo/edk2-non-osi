@@ -1,0 +1,16 @@
+## @file
+#  Binary packaging: IntelUndiPkg IceUndiDxe (E8xx ICE) built for RISCV64.
+#
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010019
+  BASE_NAME                      = IceUndiDxe
+  FILE_GUID                      = 708C91EA-0394-4610-9EB3-A30AB99015AF
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+
+[Binaries.RISCV64]
+  PE32|IceUndiDxe.efi|*

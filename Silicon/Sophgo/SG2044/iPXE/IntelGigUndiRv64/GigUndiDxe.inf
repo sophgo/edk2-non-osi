@@ -1,0 +1,19 @@
+## @file
+#  Binary-only packaging of ipxe IntelUndiPkg GigUndiDxe built for native RISCV64.
+#  EFI image is copied from standalone build (GCC5 RELEASE); see Intel BSD terms in license_bsd.txt.
+#
+#  Copyright (c) 2026, SOPHGO Integration. Intel driver binary subject to BSD license in license_bsd.txt.
+#
+#  SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010019
+  BASE_NAME                      = GigUndiDxe
+  FILE_GUID                      = BB801A52-C90F-4EDE-91B2-82520888CBC3
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+
+[Binaries.RISCV64]
+  PE32|GigUndiDxe.efi|*

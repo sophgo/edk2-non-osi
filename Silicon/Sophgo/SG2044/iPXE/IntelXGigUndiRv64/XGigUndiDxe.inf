@@ -1,0 +1,16 @@
+## @file
+#  Binary packaging: IntelUndiPkg XGigUndiDxe (10G ixgbe / X540 family) built for RISCV64.
+#
+# SPDX-License-Identifier: BSD-2-Clause-Patent
+#
+##
+
+[Defines]
+  INF_VERSION                    = 0x00010019
+  BASE_NAME                      = XGigUndiDxe
+  FILE_GUID                      = 507DF75D-7383-4CEB-A83A-60776A80D32C
+  MODULE_TYPE                    = UEFI_DRIVER
+  VERSION_STRING                 = 1.0
+
+[Binaries.RISCV64]
+  PE32|XGigUndiDxe.efi|*
